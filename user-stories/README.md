@@ -17,8 +17,11 @@ Acceptance criteria for each story
 Priority levels and story point estimates
 Implementation notes following Django best practices
 Traceability matrix linking stories to use cases
+User Story Format
+Each user story follows the standard Agile format:
 
-# Story Components
+As a [type of user], I want [some goal] so that [some reason].
+Story Components
 Title - Descriptive name for the story
 Description - User story in standard format
 Acceptance Criteria - Specific conditions for story completion
@@ -29,36 +32,36 @@ Django Implementation - Technical implementation notes
 Epic Categories
 The user stories are organized into 8 main epics:
 
-# User Management 
+User Management (18 story points)
 Registration, authentication, profile management
-Property Management 
+Property Management (21 story points)
 Listing creation, availability management
-Search & Discovery 
+Search & Discovery (21 story points)
 Property search, filtering, detailed viewing
-Booking Management 
+Booking Management (33 story points)
 Booking requests, approval process, modifications
-Payment Processing 
+Payment Processing (23 story points)
 Secure payments, host payouts
-Reviews & Ratings 
+Reviews & Ratings (13 story points)
 Review submission, response system
-Communication 
+Communication (21 story points)
 Messaging, notifications
-Administration 
+Administration (36 story points)
 User management, content moderation, analytics
 Release Planning
-Release 1 (MVP) 
+Release 1 (MVP) - 67 Story Points
 Core functionality enabling basic platform operations:
 
 User registration and authentication
 Property listing and search
 Booking creation and payment processing
-Release 2 
+Release 2 - 54 Story Points
 Enhanced features for improved user experience:
 
 Profile management and availability control
 Booking approval workflow
 Review system and messaging
-Release 3 
+Release 3 - 59 Story Points
 Advanced features for platform maturity:
 
 Booking modifications and review responses
